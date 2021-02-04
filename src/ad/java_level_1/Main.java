@@ -42,13 +42,7 @@ public class Main {
     }
 
     static boolean CheckBolNum(int TselCh) {
-        boolean result;
-        if (TselCh >= 0) {
-            result = true;
-        } else {
-            result = false;
-        }
-
+        boolean result = TselCh >= 0;
         return result;
     }
 
